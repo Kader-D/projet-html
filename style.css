@@ -1,0 +1,208 @@
+body{
+    background: #a0badc;
+    font-family: 'Roboto', sans-serif;
+    margin: 2.5em;
+    width: 44em;
+}
+a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 3em;
+    left: 45em;
+    font-weight: bold;
+}
+ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+    gap: 40px;
+}
+
+.logo{
+    border-radius: 50%;
+    position: relative;
+    left: 1,7em;
+}
+header{ 
+   width: cover;
+   position: relative;
+   margin-top: 1em;  
+   margin: 0;
+   padding: 0;
+   bottom: 2em;
+}
+
+#accueil{
+   position: relative;
+   bottom: 4em;
+}
+
+.illus{
+    position: relative;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    left: 43em;
+    bottom: 17em;
+}
+
+.bienvenue{
+    font-size: 7em;
+    position: relative;
+    top: 1em;
+    text-shadow: 5px 5px 9px rgba(0, 0, 0, 0.5), -5px -5px 9px rgba(255, 255, 255, 0.5);
+}
+
+.apropos{
+    font-size: 3em;
+    text-shadow: 5px 5px 9px rgba(0, 0, 0, 0.5), -5px -5px 9px rgba(255, 255, 255, 0.5);
+    position: relative;
+    right: 2em;
+}
+
+#apropos{
+    position: relative;
+    bottom: 19em;
+    left: 9em;
+}
+
+#presentation{
+    position: relative;
+    right: 5.5em;
+    font-weight:400;
+    font-size: 0.5;
+}
+
+.devweb{
+    position: relative;
+    top: 2em;
+}
+
+.webdev{
+    position: relative;
+    left: 10em;
+    font-size: 1.5em ;
+    text-decoration: underline;
+}
+iframe{
+    position: relative;
+    left: 11em;
+    width: 30em;
+    height: 18em;
+}
+.devweb>p{
+    position: relative;
+    left: 2em;
+}
+
+#CV{
+    position:relative;
+    bottom: 13em;
+}
+.vitae{
+    position: relative;
+    left: 25em;
+    bottom: 6em;
+}
+
+#resume{
+    position: relative;
+    top: 3em;
+    left: 3em;
+    font-size: 3em;
+    text-shadow: 5px 5px 9px rgba(0, 0, 0, 0.5), -5px -5px 9px rgba(255, 255, 255, 0.5);
+}
+
+#travail{
+    position: relative;
+    bottom: 16em;
+}
+
+#travail>h1{
+    position: relative;
+    left: 10em;
+    font-size: 3em;
+    text-shadow: 5px 5px 9px rgba(0, 0, 0, 0.5), -5px -5px 9px rgba(255, 255, 255, 0.5);
+}
+
+#travail>p{
+    position: relative;
+    top: 4em;
+    right: 20em;
+    
+}
+
+#travail>p>a{
+    color: blue;
+    text-decoration: underline;
+}
+
+#contact{
+    position:relative;
+    bottom: 13em;
+}
+
+#contact>h2{
+    position: relative;
+    font-size: 3em;
+    text-shadow: 5px 5px 9px rgba(0, 0, 0, 0.5), -5px -5px 9px rgba(255, 255, 255, 0.5);
+}
+
+.coordonnée{
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+.email{
+    position: relative;
+    left: 5em;
+    text-decoration: underline;
+}
+
+.num{
+    position: relative;
+    left: 5em;
+    text-decoration: underline;
+}
+
+.container{
+    position: relative;
+    left: 32em;
+    top: 4em;
+}
+
+textarea{
+    position: relative;
+    right: 7em;
+    width: 22em;
+    height: 8em;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 2px;
+    background-color: #a0badc;
+}
+
+::placeholder{
+    font-size: 1.5em;
+}
+
+input{
+    position: relative;
+    left: 1.3em;
+    top:1.3em;
+    width: 7em;
+    height: 3em;
+    border: #a0badc;
+    border-radius: 30px;
+    background-color: black;
+    color: #a0badc;
+}
+
+a:hover{
+    color: blue;
+}
+
+
+
+

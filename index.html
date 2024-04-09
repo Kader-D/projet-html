@@ -3,22 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
     <title>portfolio</title>
 </head>
 <body>
    
     <!--en-tete de la page-->
     <header>
-        <img src="image/Capture d’écran (7).png" alt="logo" width="40" height="40">
+        <img src="image/Capture d’écran (7).png" alt="logo" width="40" height="40" class="logo">
         
         <!-- Barre de navigation -->
     <nav>
         <ul>
-            <li><a href="#accueil">Accueil</a></li>
-            <li><a href="#apropos">À propos</a></li>
-            <li><a href="#travail">Travail</a></li>
-            <li><a href="#cv">CV</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#accueil">Home</a></li>
+            <li><a href="#apropos">About</a></li>
+            <li><a href="#travail">work</a></li>
+            <li><a href="#cv">Resume</a></li>
+            <li><a href="#contact">Contacts</a></li>
         </ul>
     </nav>
     </header>
@@ -26,12 +28,16 @@
     
     <!--partie principale de la page-->
     <main>
-        <hr>
+       
+        <div id="accueil">
+           <h1 class="bienvenue">BIENVENUE !</h1>
+           <img src="image/illus.jpg" alt="illustration" class="illus">
+        </div>
        
         <!--section accueil-->
-        <div id="accueil">
-           <h1>A propos</h1>
-           <p>
+        <div id="apropos">
+           <h1 class="apropos">ABOUT ME...</h1>
+           <p id="presentation">
              Je suis Abdoul Kader Diomandé, étudiant en droit et informatique.
              <br>Je suis un développeur web passionné par la création de solutions innovantes.
              <br>L'informatique est pour moi un domaine fascinant.
@@ -41,40 +47,48 @@
              <br>il est plus que nécessaire de s'y connaitre ne serait-ce qu'un tout petit peu.
              <br>c'est ainsi que commence mes premier pas vers le développement web.</p>
           </p>
-          <h3>C'est quoi le développement web ?</h3>
-          <p>Le développement Web est le travail nécessaire au développement d'un site Web pour Internet ou un intranet.</p>
-          <iframe src="https://www.youtube.com/embed/UOn8kLLA508" frameborder="0"></iframe>
+          <div class="devweb">
+             <h3 class="webdev">C'est quoi le développement web ?</h3>
+             <p>Le développement Web est le travail nécessaire à la création d'un site Web pour Internet ou un intranet.</p>
+             <iframe src="https://www.youtube.com/embed/UOn8kLLA508" frameborder="0"></iframe>
+          </div>
         </div>
         
         <!--section cv-->
         <div id="CV">
-            <hr>
-            <h1> Curriculum vitae</h1>
-            <img src="image/cv1.png" alt="cv1" height="600" width="500">
-            <img src="image/cv2.png" alt="cv1" height="600" width="500">
+            <h1 id="resume"> Resume</h1>
+            <div class="vitae">
+            <img src="image/cv1.png" alt="cv1" height="400" width="300">
+            <img src="image/cv2.png" alt="cv1" height="400" width="300"> 
+            </div> 
         </div>
        
         <!--section travail-->
-        <div>
-            <hr>
-            <h1>Travail</h1>
+        <div id="travail">
+            <h1>work</h1>
             <p>
                 <a href="kader-d.github.io">cliquez ici pour un aperçu de projet réalisé</a>
             </p>
         </div>
 
-        <!--sectin contact-->
+        <!--section contact-->
         <div id="contact">
-            <hr>
-            <h2>Contactez-moi</h2>
-              <a href="mailto:abdoulkaderdiomande321@gmail.com">abdoulkaderdiomande321@gmail.com</a> 
+            
+            <h2>Contacts</h2>
+           <p>
+             <span class="coordonnée">Email:</span><span class="email">abdoulkaderdiomande321@gmail.com</span>
+             <br><span class="coordonnée">Téléphone:</span><span class="num">+221 70 726 74 24</span> 
+          </p> 
          <!--formulaire de contact-->
+         <div class="container">
+            <h3>Commentaire</h3>
            <p>
              <form>
                 <textarea id="message" placeholder="laissez un message"></textarea><br>
                 <input type="submit" value="soumettre">
              </form>
           </p>
+         </div>
         </div>
     </main>
 
